@@ -1,0 +1,31 @@
+#Home {
+    .logo-container {
+        margin-top: 8em;
+
+        .logo {
+            margin: 10em 0;
+            width: 300px;
+        }
+
+        a {
+            color: #ffffff;
+            background-color: transparent;
+            border: 0;
+            text-decoration: none;
+
+            .hand {
+                width: 16px;
+                margin-right: 0.5em;
+            }
+        }
+    }
+
+    .globe-container {
+        margin-top: 4em;
+        text-align: right;
+        
+        img {
+            max-height: 600px;
+        }
+    }
+}

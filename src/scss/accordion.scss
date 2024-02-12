@@ -1,0 +1,50 @@
+.accordion {
+    list-style: none;
+    margin: 2em;
+    padding: 0;
+
+    @media(max-width: 767px) {
+        margin: 0;
+    }
+
+    li {
+        cursor: pointer;
+        .header {
+            background-color: #55C6D7;
+            color: #0E1724;
+            padding: 10px;
+            position: relative;
+
+            &:hover {
+                color: white;
+            }
+        }
+    
+        .content {
+            background-color: #ffffff;
+            color: #0E1724;
+            height: 0;
+            padding: 0;
+            
+                     
+            overflow: hidden;
+        }
+
+        .accordion-arrow {
+            rotate: 180deg;
+            position: absolute;
+            right: 10px;
+        }
+
+        &.active {
+            .accordion-arrow {
+                rotate: 0deg;
+            }
+            .content {
+                height: 100%;
+                padding: 10px;
+            }
+        }
+    }
+    
+}

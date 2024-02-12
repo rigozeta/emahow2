@@ -1,0 +1,16 @@
+#PageThree {    
+    blockquote {
+        border-left: 3px solid #55C6D7;
+        padding-left: 1em;
+    }
+
+    .bg {
+        height: 100vh;
+        background-image: url("../assets/page3-bg.svg");
+        background-position: top right;
+    }
+
+    @media(max-width: 767px) {
+        margin-bottom: 10em;
+    }
+}

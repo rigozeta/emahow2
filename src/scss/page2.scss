@@ -1,0 +1,13 @@
+#PageTwo {
+    .logo {
+        margin: 1em 0;
+
+        max-width: 120px;
+    }
+
+    .bg {
+        height: 100vh;
+        background-image: url("../assets/page2-bg.svg");
+        background-position: top right;
+    }
+}

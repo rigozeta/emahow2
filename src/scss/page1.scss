@@ -1,0 +1,15 @@
+#PageOne {
+    .logo {
+        margin: 3em 0;
+    }
+
+    .bg {
+        background-image: url("../assets/page1-bg.png");
+        height: 100vh;
+        background-position: top right;
+    }
+
+    @media(max-width: 767px) {
+        margin-bottom: 10em;
+    }
+}
